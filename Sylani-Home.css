@@ -1,0 +1,107 @@
+.green {
+    color: yellowgreen;
+}
+.blue {
+    color: blue;
+}
+.news {
+    background-color: #316DC3;
+    color: white;
+    height: 30px;
+}
+.pcursor {
+    cursor: pointer;
+}
+.dgreen {
+    color: green;
+}
+.text {
+    color: blue;
+}
+.intro {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.pi {
+    text-align: justify;
+}
+.stat {
+    width: 100%;
+    min-height: 250px;
+    max-height: 1000px;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.staticon {
+    height: 40px;
+    width: 40px;
+}
+.white {
+    color: white;
+}
+.do {
+    background-color: rgb(218, 214, 219);
+}
+.doing {
+    background-color: rgb(218, 214, 219);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ro , .m , .w , .d , .os , .e {
+    text-align: center;
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+}
+.box {
+    background-color: lightgrey;
+    width: 550px;
+    min-height: 70px;
+    max-height: 120px;
+    margin: 10px;
+}
+.ar1 {
+    width: 70%;
+}
+
+.upcoming {
+    width: 250px;
+    height: 200px;
+}
+.gallery {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    min-height: 151px;
+    max-height: 350px;
+}
+.galimg {
+    width: 100%;
+    height: 100%;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontsmall {
+    font-size: small;
+}
+
+#myBtn {
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+}
